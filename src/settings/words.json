@@ -1,0 +1,105 @@
+{
+  "level1": {
+    "alias": "White Belt",
+    "color": "#fff",
+    "words": [
+      "like",
+      "at",
+      "I",
+      "a",
+      "us",
+      "the",
+      "to",
+      "my",
+      "look",
+      "can",
+      "is",
+      "in",
+      "we",
+      "girl",
+      "boy"
+    ]
+  },
+  "level2": {
+    "alias": "Yellow Belt",
+    "color": "#fff200",
+    "words": [
+      "all",
+      "be",
+      "his",
+      "for",
+      "can",
+      "and",
+      "of",
+      "with",
+      "was",
+      "it",
+      "on"
+    ]
+  },
+  "level3": {
+    "alias": "Blue Belt",
+    "color": "#00f",
+    "words": [
+      "said",
+      "they",
+      "little",
+      "one",
+      "he",
+      "have",
+      "had",
+      "are",
+      "not",
+      "was",
+      "as"
+    ]
+  },
+  "level4": {
+    "alias": "Green Belt",
+    "color": "#0f0",
+    "words": [
+      "me",
+      "but",
+      "if",
+      "do",
+      "you",
+      "by",
+      "an",
+      "that",
+      "her",
+      "down"
+    ]
+  },
+  "level5": {
+    "alias": "Gray Belt",
+    "color": "#222",
+    "words": [
+      "has",
+      "get",
+      "come",
+      "big",
+      "or",
+      "new",
+      "him",
+      "up",
+      "no",
+      "now"
+    ]
+  },
+  "level6": {
+    "alias": "Purple Belt",
+    "color": "#f0f",
+    "words": [
+      "see",
+      "old",
+      "did",
+      "here",
+      "back",
+      "will",
+      "our",
+      "she",
+      "who",
+      "off"
+    ]
+  }
+}
