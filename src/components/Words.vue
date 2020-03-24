@@ -9,7 +9,7 @@
       ></LevelNavigation>
     </header>
 
-    
+
     <main class="Stage">
       <button type="button"
               :style="{fontSize: activeWordFontSize+ 'vw'}"
@@ -28,7 +28,7 @@
         >
           {{ word }}
         </button>
-        
+
       </li>
     </ul>
   </div>
@@ -87,10 +87,10 @@ export default {
   methods: {
     announce: function(word) {
       window.utterance.text = word;
-      speechSynthesis.speak(utterance);
+			speechSynthesis.speak(utterance);
 
-      this.randomWord();
-      console.log("just said: " + word);
+			setTimeout( () => this.randomWord(), 1000 );
+
     },
     randomWord: function() {
       this.activeWord = this.currentWordsLevel.words[
