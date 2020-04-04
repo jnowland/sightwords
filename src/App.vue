@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       studentName: "Isaac",
-      currentLevel: 2
+      currentLevel: 1
     };
   }
 };

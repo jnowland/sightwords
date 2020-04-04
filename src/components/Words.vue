@@ -86,16 +86,23 @@ export default {
   },
   methods: {
     announce: function(word) {
-      window.utterance.text = word;
-			speechSynthesis.speak(utterance);
+      window.utterance.text = word.toLowerCase();
+      speechSynthesis.speak(utterance);
 
-			setTimeout( () => this.randomWord(), 1000 );
-
+      this.randomWord(word);
+      console.log("just said: " + word);
     },
-    randomWord: function() {
+    randomWord: function(previousWord) {
       this.activeWord = this.currentWordsLevel.words[
         Math.floor(Math.random() * this.currentWordsLevel.words.length)
-      ];
+			];
+
+			// re-random word
+			if (this.activeWord === previousWord){
+				this.randomWord(previousWord);
+				return true;
+			}
+
       this.activeWordFontSize =
         this.activeWord.length > 2 ? 100 / this.activeWord.length : 30;
     },
